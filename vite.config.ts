@@ -7,10 +7,6 @@ export default defineConfig({
   base: '/portfolio/',
   build: {
     outDir: 'dist',
-    assetsDir: 'assets',
-    sourcemap: false,
-    rollupOptions: {
-      input: 'index.html',
-    },
+    emptyOutDir: true
   },
 })
